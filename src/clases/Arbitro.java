@@ -15,11 +15,11 @@ public void setCedula(String cedula) {
 public String toString() {
 	StringBuilder sb = new StringBuilder();  
 	sb.append("\nNombre: ");
-    sb.append(nombre);
+    sb.append(getNombre());
     sb.append("\nEdad: ");
-    sb.append(edad);
+    sb.append(getEdad());
     sb.append("\nDireccion: ");
-    sb.append(direccion);
+    sb.append(getDireccion());
     sb.append("\nCedula: ");
     sb.append(cedula);    
     return sb.toString();
