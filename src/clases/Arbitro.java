@@ -14,13 +14,13 @@ public void setCedula(String cedula) {
 @Override
 public String toString() {
 	StringBuilder sb = new StringBuilder();  
-	sb.append("\nMatrícula: ");
+	sb.append("\nNombre: ");
     sb.append(nombre);
-    sb.append("\nMarca: ");
+    sb.append("\nEdad: ");
     sb.append(edad);
-    sb.append("\nmodelo: ");
+    sb.append("\nDireccion: ");
     sb.append(direccion);
-    sb.append("\nKm: ");
+    sb.append("\nCedula: ");
     sb.append(cedula);    
     return sb.toString();
 	}
