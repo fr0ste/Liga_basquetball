@@ -3,19 +3,22 @@ package clases;
 public abstract class Persona {
     
     protected String nombre;
-    protected short edad;
+    protected int edad;
     protected String direccion;
-    protected int telefono;
+    protected String telefono;
+    
+    
+    
 	public String getNombre() {
 		return nombre;
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public short getEdad() {
+	public int getEdad() {
 		return edad;
 	}
-	public void setEdad(short edad) {
+	public void setEdad(int edad) {
 		this.edad = edad;
 	}
 	public String getDireccion() {
@@ -24,12 +27,18 @@ public abstract class Persona {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
-	public int getTelefono() {
+	public String getTelefono() {
 		return telefono;
 	}
-	public void setTelefono(int telefono) {
+	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-
+	
+	
+	public void tipoPersona() {
+		
+		System.out.println("tipo: persona");
+		
+	}
     
 }

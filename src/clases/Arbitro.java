@@ -13,6 +13,7 @@ public void setCedula(String cedula) {
 
 @Override
 public String toString() {
+	
 	StringBuilder sb = new StringBuilder();  
 	sb.append("\nNombre: ");
     sb.append(nombre);
@@ -21,9 +22,14 @@ public String toString() {
     sb.append("\nDireccion: ");
     sb.append(direccion);
     sb.append("\nCedula: ");
-    sb.append(cedula);    
+    sb.append(cedula);
+    sb.append("\ntelefono: ");
+    sb.append(telefono);
     return sb.toString();
+    
 	}
  
+
+	
  
 }
