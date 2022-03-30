@@ -2,6 +2,10 @@ package clases;
 
 public class Varonil  extends Jugador{
 	@Override
+	public void tipo() {
+		System.out.println("Jugador Varonil");
+	}
+	@Override
 	public void Datos() {
 		System.out.println("Nombres de los integrantes del primer equipo:\n"
 				+"Primer jugador:\n"

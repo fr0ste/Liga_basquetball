@@ -1,6 +1,10 @@
 package clases;
 
 public class Femenil extends Jugador {
+	@Override
+		public void tipo() {
+			System.out.println("Este es femenil");
+		}
 @Override
 public void Datos() {
 	System.out.println("/nNombres de los integrantes del primer equipo:\n"

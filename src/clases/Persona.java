@@ -36,10 +36,9 @@ public abstract class Persona {
 	}
 	
 	
-	public void tipoPersona() {
+	public void tipo() {
 		
-		System.out.println("tipo: persona");
+		System.out.println("Es una persona");}
 		
 	}
     
-}
