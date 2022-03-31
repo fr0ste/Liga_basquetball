@@ -25,15 +25,16 @@ public class LlenarArbitro {
 			
 			Arbitro aux = new Arbitro();
 			
-			System.out.println("ingrese el nombre del arbitro" + j);
+			System.out.println("ingrese el nombre del arbitro " + j);
 			nombre= entrada.nextLine();
-			System.out.println("ingrese el domicilio del arbitro" + j);
+			System.out.println("ingrese el domicilio del arbitro " + j);
 			domicilio=entrada.nextLine();
-			System.out.println("ingrese el telefono del arbitro" + j);
+			System.out.println("ingrese el telefono del arbitro " + j);
 			telefono = entrada.nextLine();
-			System.out.println("ingrese la edad del arbitro" + j);
+			System.out.println("ingrese la edad del arbitro " + j);
 			edad = entrada.nextInt();
-			System.out.println("ingrese la cedula del arbitro" + j);
+			entrada.nextLine();
+			System.out.println("ingrese la cedula del arbitro " + j);
 			cedula= entrada.nextLine();
 			
 			
