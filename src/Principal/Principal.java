@@ -14,12 +14,10 @@
 package Principal;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
-import clases.Arbitro;
-import clases.Femenil;
-import clases.Jugador;
-import clases.Persona;
-import clases.Varonil;
+import clases.*;
+import datos.*;
 
 public class Principal {
 	
@@ -30,6 +28,70 @@ public class Principal {
 	
 	
 	public static void main(String[] args) {
+		LlenarArbitro a=new LlenarArbitro();
+		//declaramos las variables
+		int maxPersonas;
+		int opc;
+		boolean salir = true;
+		//declaramos el obj de entrada
+		Scanner entrada=new Scanner(System.in);
+		
+		
+		do {
+			
+
+			System.out.println("ingrese una opcion");
+			System.out.println("(1) leer arbitros \n (2) leer equipo femenil \n (3) leer equipo varonil \n (4) salir");
+			opc=entrada.nextInt();
+			
+			System.out.println("ingrese el total a pedir");
+			maxPersonas=entrada.nextInt();
+			
+			
+			switch(opc) {
+			
+			case 1:
+				
+				a.LeerArbitro(maxPersonas);
+				
+				break;
+				
+			case 2:
+				
+				break;
+				
+			case 3:
+				
+				
+				break;
+				
+			case 4:
+				
+				salir=false;
+				
+				
+				break;
+				
+				
+			default:
+			
+			System.out.println("OPCION NO VALIDA");
+			
+			
+			}
+			
+			
+			
+		}while(salir);
+		
+		
+		
+		
+		
+		System.out.println("FIN DEL PROGRAMA");
+		
+		
+		
 		
 		
 		
