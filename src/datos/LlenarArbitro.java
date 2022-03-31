@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import clases.*;
 public class LlenarArbitro {
-	public ArrayList<Arbitro>lista=new ArrayList<Arbitro>();
+	public static ArrayList<Arbitro>lista=new ArrayList<Arbitro>();
 	//Método que devuelve un lista
 	public ArrayList<Arbitro> LeerArbitro(int Max) {
 		
@@ -49,8 +49,14 @@ public class LlenarArbitro {
 			lista.add(aux);
 			
 			
+			
 		}
 		
+		
+		for (int i=0; i<lista.size(); i++) {
+			lista.get(i);
+			
+		}
 		
 		
 		 return(lista);

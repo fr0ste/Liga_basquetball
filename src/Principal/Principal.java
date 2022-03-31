@@ -40,11 +40,11 @@ public class Principal {
 		do {
 			
 
-			System.out.println("ingrese una opcion");
+			System.out.println("Escoja la opción que se desea: ");
 			System.out.println("(1) leer arbitros \n (2) leer equipo femenil \n (3) leer equipo varonil \n (4) salir");
 			opc=entrada.nextInt();
 			
-			System.out.println("ingrese el total a pedir");
+			System.out.println("Ingrese la contidadla que se requiere:");
 			maxPersonas=entrada.nextInt();
 			
 			
@@ -52,8 +52,16 @@ public class Principal {
 			
 			case 1:
 				
-				a.LeerArbitro(maxPersonas);
-				
+			
+
+		    //ArrayList<Arbitro> listaArbitros = new ArrayList<>(a.LeerArbitro(maxPersonas));
+		    //listaArbitros.forEach(System.out::println);
+				listaArbitros.addAll(a.LeerArbitro(maxPersonas));
+				System.out.println(listaArbitros.size());	
+				System.out.println(listaArbitros.isEmpty());
+			for (int i=0; i<listaArbitros.size(); i++) {
+				listaArbitros.get(i);
+			}
 				break;
 				
 			case 2:
