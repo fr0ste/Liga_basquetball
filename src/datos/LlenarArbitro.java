@@ -53,6 +53,6 @@ public class LlenarArbitro {
 		
 		
 		
-		 return lista;
+		 return(lista);
 	 }
 }
