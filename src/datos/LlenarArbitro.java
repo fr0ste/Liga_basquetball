@@ -1,11 +1,15 @@
 package datos;
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
 import clases.*;
 public class LlenarArbitro {
 	public static ArrayList<Arbitro>lista=new ArrayList<Arbitro>();
 	//Método que devuelve un lista
+	
+	
+	
 	public ArrayList<Arbitro> LeerArbitro(int Max) {
 		
 		String nombre;
@@ -53,12 +57,7 @@ public class LlenarArbitro {
 		}
 		
 		
-		for (int i=0; i<lista.size(); i++) {
-			lista.get(i);
-			
-		}
 		
-		
-		 return(lista);
+		 return lista;
 	 }
 }
