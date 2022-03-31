@@ -3,10 +3,10 @@ package clases;
 
 public abstract class Persona {
     
-    protected String nombre;
-    protected int edad;
-    protected String direccion;
-    protected String telefono;
+    private String nombre;
+    private int edad;
+    private String direccion;
+    private String telefono;
     
     
     
