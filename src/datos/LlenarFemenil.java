@@ -1,10 +1,8 @@
 package datos;
 
 import java.util.ArrayList;
-<<<<<<< HEAD
-=======
 
->>>>>>> refs/remotes/origin/Dev_Joel
+
 import java.util.Scanner;
 
 import clases.*;
